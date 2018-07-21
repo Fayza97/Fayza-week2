@@ -1,0 +1,1208 @@
+
+/********************** home page ***************************** */
+#index {
+  background: #eaeaea;
+  margin: 0%;
+  overflow-x: hidden;
+}
+* {
+    box-sizing: border-box;
+}
+header.top {
+margin: 0%;
+min-height: 70vh;
+width: 100%;
+background: url("../images/1.jpg")  no-repeat center;
+background-size: cover;
+}
+
+.navv .micon {
+    visibility: hidden;
+  }
+nav {
+    text-align: right;
+    font-size: 25px;
+    padding: 10px;
+}
+nav a {
+    text-decoration:none;
+    letter-spacing:1px;
+    color:#3f372d;
+    text-transform: capitalize;
+    margin-right: 40px;
+    word-spacing: 2px;
+    border: 2px solid transparent;
+    border-radius: 9px;
+    padding: 5px;
+  }
+  nav a:hover {
+    color:white;
+    background-color:rgba(55, 39, 3, 0.487);
+    border: 1px solid #615442 ;
+  }
+ nav a.active {
+    border: 1px solid  #615442 ;
+    color:white;
+    background-color:rgba(55, 39, 3, 0.487);
+ }
+
+h1 {
+    font-family: 'Lato', sans-serif;
+    font-size: 70px;
+    font-weight: 260;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+.box{
+    display: inline-block;
+    background: white;
+    width: 370px;
+    height: 370px;
+    border:  1px solid #a08864;
+     border-radius: 5px;
+     padding: 60px;
+     z-index: 2;
+  }
+  .sidebar {
+    display: inline-block;
+    width: 20%;
+    margin-top: 150px;
+    text-align: center;
+    margin-left: 200px;
+  }
+  .content {
+    display: inline-block;
+    width: 25%;
+    margin-top: 210px;
+    margin-right: 0px;
+    margin-left: 360px;
+    text-align: justify;
+  }
+ .book{ 
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+ }
+ #box2 {
+     width: 40px;
+     height: 25px;
+     border:  1px solid #5e5548;
+     display: inline-block;
+     text-align: center;
+ }
+ #box3 {
+    border:  2px solid #5e5548;
+    display: inline-block;
+    text-align: center;
+    width: 130px;
+    height: 26px;
+}
+.con {
+    border:  3px solid #5e5548;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+
+/* this our servicess stylesheet */
+#ourser {
+    text-align: center;
+}
+h2.serv {
+    overflow-wrap: normal;
+    font-size: 20px;
+}
+.scontainer {
+    width: 70%;
+    margin: 10px auto;
+    position: relative;
+    text-align:center;
+    font-family: 'Lato', sans-serif;
+  }
+  .fas{
+      font-size:50px;
+  }
+  .block {
+    height: 270px;
+    width: 270px;
+    display:inline-block;
+    margin: 10px;
+     border: 2px none black;
+  }
+  h1.topic, h2.topic {
+    font-family: 'Lato', sans-serif;
+    font-size: 38px;
+    font-weight: 260;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+/* Create two unequal columns that floats next to each other */
+.column {
+    float: left;
+    padding: 10px;
+    height: auto; /* Should be removed. Only for demonstration */
+}
+.col-1 {
+    width: 75%;
+  }  
+  img.col1 {
+    background-size: cover;
+    height: 800px;
+    width: 100%;
+  }
+.col-2 {
+  width: 25%;
+  display: inline-block;
+  height: 10vh;
+}
+row:after {
+    clear: both;
+}
+
+/***  Guestsss******* */
+.ourguests {
+    width: 100%; 
+}
+.guestdiv {
+    display: inline-block;
+    height: 100vh;
+    width: 100%;
+}
+.gcontainer {
+    width: 100%;
+    text-align:center;
+    font-family: 'Lato', sans-serif;
+  }
+p{
+    font-family: 'Lato', sans-serif; 
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+}
+.blockguest{
+    height: 370px;
+    width: 350px;
+    display:inline-block;
+    margin: 40px;
+     border: 2px solid black;
+     background: white;
+  }
+ .gue {
+      width: 200px;
+      height: 140px;
+      margin-top: 10px;
+  }
+p.guest {
+    font-weight: 700;
+    font-size: 15px;
+    margin: 20px;
+}
+.h2guest {
+    font-weight: 600;
+    font-size: 20px;
+    color: #c4c2c1;
+}
+.stars{
+    color: #615442;
+}
+.stars .fas {
+    font-size: 30px;
+    letter-spacing: 9px;
+}
+/*  get in touch part css */
+ 
+.h2touch {
+    font-weight: 100;
+    font-family: 'Lato', sans-serif; 
+    color: white;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+.spanreg {
+    border:  2px solid white;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    color: white;
+    width: 300px;
+    display: inline-block;
+    background: #615442;
+}
+input {
+    border-radius: 5px;
+    border: 3px solid white;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    text-transform: capitalize;
+    width: 300px;
+    padding: 5px;
+}
+ .divtouch
+ {
+    background: #615442;
+    width:100%;
+    height:auto;
+    display:flex;
+ }
+.socicon .fab{
+    font-size: 50px;
+    letter-spacing: 45px;
+    color: white;
+}
+.side  {
+  width:50%;
+  height:145px;
+  margin-left:55px;
+  }
+  .contentt {
+    width:50%;
+    height:145px;
+    margin-left: 270px;
+    margin-top: 100px;
+
+  }
+  /***********************************tablet responsive for homepage ************************************************/
+  /***********************************tablet responsive for homepage ************************************************/
+  /***********************************tablet responsive for homepage ************************************************/
+  /***********************************tablet responsive for homepage ************************************************/
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) { 
+    #index {
+        width: 100%;
+        overflow-x: hidden;
+    }
+    .wrapper {
+        width: 100%;
+        overflow-x: hidden;
+   }
+     /*  *********HEADER**********/
+    .navbar a {
+        visibility: hidden;
+      }
+      .navbar a.micon {
+        visibility: visible;
+        color: rgb(82, 76, 65);
+        font-size: 80px;
+      }
+      header.top {
+        margin: 0%;
+        height: 100vh;
+        width: 100%;
+        background: url("../images/1.jpg")  no-repeat center;
+      background-size: cover;
+     }
+      .sidebar h1{
+        font-size: 70px;
+        top: 150px;
+        left: -90px;
+        position: relative;
+        font-weight: 700;
+        }
+        .content{
+            width: 100%;
+            top: -400px;
+            left: -90px;
+            position: relative;
+            text-align: center;
+        }
+ /**********Services**********/
+
+  .services {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 90vh;
+}
+.ourservicesdiv {
+    width: 100%;
+    height: 80vh;
+}
+h1#ourser {
+   font-weight: 700;
+   font-size: 35px;
+    text-align: center;
+    top: -10%;
+}
+.block {
+    width: 30%; 
+    height: 290px;
+    display:inline-block;
+    margin: 10px;
+     border: 2px none black;
+  }
+h2.serv{
+    font-size: 18px;
+  }
+  h1.topic, h2.topic {
+    font-family: 'Lato', sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  p {
+    font-size: 18px;
+  }
+
+  /********Guests***********/
+  .ourguests {
+    display: flex;
+    flex-direction: column;
+  }
+  .scontainer ,gcontainer {
+      width: 100%;
+  }
+  .guestdiv {
+    display: inline-block;
+    height: 80vh;
+    width: 100%;
+}
+  .blockguest{
+    height: 380px;
+    width: 350px;
+    display:inline-block;
+    margin: 40px;
+     border: 2px solid black;
+     background: white;
+  }
+  /****touh ********/
+  .socicon .fab{
+    font-size: 35px;
+}
+}
+  /***********************************mobile responsive for homepage *****************************************************/
+  /***********************************mobile responsive for homepage *****************************************************/
+  /***********************************mobile responsive for homepage *****************************************************/
+  /***********************************mobile responsive for homepage *****************************************************/
+
+  @media only screen and (max-width: 667px) {
+    #index {
+       width: 100%;
+   }
+   .wrapper {
+    width: 100%;
+    overflow-x: hidden;
+  }
+  /*  *********HEADER**********/
+  header.top {
+    margin: 0%;
+    height: 100vh;
+    width: 120%;
+    background: url("../images/1.jpg")  no-repeat center;
+  background-size: cover;
+ }
+    
+  .homedivheader
+  {
+   width: 100%;
+  }
+  .top{
+    display: flex;
+    flex-direction: column;
+  }
+  .navbar a {
+    visibility: hidden;
+  }
+  .navbar a.micon {
+    visibility: visible;
+    color: rgb(82, 76, 65);
+    font-size: 56px;
+  }
+.sidebar h1{
+    font-size: 56px;
+    font-weight: 700;
+    top: -255px;
+    left: -180px;
+    position: relative;
+    }
+    .content{
+        width: 100%;
+        top: -500px;
+        left: -395px;
+        position: relative;
+        text-align: center;
+    }
+    .box{
+        display: inline-block;
+        background: white;
+        width: 320px;
+        height: 370px;
+        border:  1px solid #a08864;
+         border-radius: 5px;
+         padding: 10px;
+         z-index:2;
+    }  
+   .con {
+    border:  3px solid #5e5548;
+    display: inline-block;
+    text-align: center;
+    padding: 7px;
+    border-radius: 5px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    width: 170px;
+}
+
+  /**********Services**********/
+
+  .services {
+    overflow-x: hidden;
+      display: flex;
+      flex-direction: column;
+      width: 90%;
+
+  }
+  .ourservicesdiv {
+      width: 100%;
+      height: auto;
+  }
+  h1#ourser {
+    font-size: 30px;
+    font-weight: 700;
+      font-weight: 300;
+      text-align: center;
+  }
+  .block {
+      width: 40%; 
+      height: 170px;
+      display:inline-block;
+      margin: 7px;
+       border: 2px none black;
+    }
+  h2.serv{
+      font-size: 15px;
+    }
+
+  /*************rooms big*************/
+    .rooms {
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        height: 190vh;
+    }
+ .row {
+        width: 120%;
+    } 
+      img.col1 {
+        background-size: cover;
+        height: 350px;
+        width: 124%;
+        margin-left: -8%;
+      }
+
+.col-2 {
+    width: 80%;
+    position: relative;
+    height: 100vh;
+}
+.h1topic {
+    text-align: center;
+}
+  p {
+    text-align: center;
+  }
+ /******** guests*************/
+      .ourguests {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        overflow: hidden;
+        height: 162vh;
+      }
+      .gcontainer{
+          width: 100%;
+      }
+      .blockguest{
+        height: 370px;
+        width: 320px;
+        display:inline-block;
+        margin: 20px;
+         border: 2px solid black;
+         background: white;
+      }
+/******** Touch**********/
+    footer {
+        overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    }
+    .divtouch {
+    width: 120%; 
+    display: block;
+    text-align: center;
+    }
+    .side {
+        height: 90px;
+        text-align: center;
+    }
+    .spanreg {
+        border:  2px solid white;
+        text-align: center;
+        padding: 5px;
+        border-radius: 5px;
+        font-family: 'Lato', sans-serif;
+        font-weight: bold;
+        color: white;
+        width: 275px;
+    }
+    .inputt {
+        border-radius: 5px;
+        border: 3px solid white;
+        font-family: 'Lato', sans-serif;
+        font-weight: bold;
+        text-transform: capitalize;
+        width: 275px;
+        padding: 5px;
+    }
+    .h2touch {
+        font-weight: 700;
+        font-family: 'Lato', sans-serif; 
+        color: white;
+        letter-spacing: 2px;
+        word-spacing: 3px;
+        text-transform: uppercase;
+        font-size: 23px;
+    }
+    .socicon {
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        top: 0;
+        left: -239px;
+        text-align: center; 
+    }
+    .icon .fab {
+        font-size: 1px;
+    }
+    .contentt{
+        text-align: center;
+    }
+  }
+
+/********************************* Room Page CSS part *********************************/
+  /********************* Room Page CSS part **********************/
+
+  /*************HEADER*************/
+  #room {
+      background: #eaeaea;
+      margin: 0%;
+      overflow-x: hidden;
+  }
+  .rnav .micon {
+    visibility: hidden;
+  }
+  .rnav {
+      height: 90px;
+      background: white;
+     margin-top: -90px;
+    margin-left: 600px;
+  }
+   .h2r {
+       font-weight: 100;
+       font-family: 'Lato', sans-serif;
+       font-size: 30px;
+       text-transform: uppercase;
+       margin: 0%;
+       margin-left: 18px;
+   }
+   .rheader {
+    width:100%;
+    display:flex;
+    background: white;
+   }
+/* Room Page features */
+#rfeature {
+    background: #eaeaea;
+    height: auto;
+    width: auto;
+}
+.rh1 {
+    text-transform: uppercase;
+    text-align: center;
+}
+.rcontainer{
+    display:table;
+    background: white;
+   }
+   .rcolumn {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 100vh; /* Should be removed. Only for demonstration */
+}
+.rimg{
+     width: 100%;
+     margin: -3%;
+   }
+   .rfh2{
+    font-weight: 200;
+    font-family: 'Lato', sans-serif;
+    font-size: 40px;
+    text-transform: uppercase;
+    margin: 9%;
+    word-spacing: 5px;
+   }
+
+   .rbn {
+    margin: 20% 30%;
+    border:  3px solid #5e5548;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    height: 60px;
+    width: 190px;
+   }
+   .rcon
+   {
+    display:flex;
+    flex-direction: row-reverse;
+   }
+   .rtextt{
+    text-align: center;
+    background: white;
+   }
+   .rimgg {
+    height: 650px;
+    width: 100%;
+}
+
+/* rooms*/
+.ourrooms {
+    width: 100%; 
+}
+.rscontainer {
+    background: #eaeaea;
+    height: 100%;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.blockroom{
+    height: 350px;
+    width: 260px;
+    display:inline-block;
+     border: 0px none white;
+     background: white;
+     margin-left: 150px;
+  }
+ .rroom {
+      width: 260px;
+      height: 160px;
+  }
+p.rroo {
+    font-weight: 700;
+    font-size: 15px;
+    margin-left: 10px;
+}
+.h2room {
+    font-weight: 300;
+    font-family: 'Lato', sans-serif;
+    font-size: 22px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.rsbn{
+    border:  3px solid #5e5548;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    border-radius: 15px;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    height: 60px;
+    width: 260px; 
+   margin-top: 30px;
+   margin-bottom: 30px;
+   margin-left: 562px;
+}
+  /***********************************tablet responsive for ROOMpage ************************************************/
+  /***********************************tablet responsive for ROOMpage************************************************/
+  /***********************************tablet responsive for for ROOMpage ************************************************/
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) { 
+    #room {
+        width: 100%;
+    }
+    .wrapper {
+        width: 100%;
+        overflow-x: hidden;
+   }
+   /* Header*/
+   .rheader {
+    display: flex;
+    flex-direction: column;
+  }
+  .rhead {
+      width: 100%;
+  }
+  .rnav a.micon {
+      visibility: visible;
+      color: rgb(82, 76, 65);
+      font-size: 56px;
+      float: right;
+      margin-right: 10px;
+    }
+  .rnavbar {
+      visibility: hidden;
+  }
+   .h2r {
+       font-weight: 560;
+   }
+ /*rooms*/
+ .ourrooms {
+    display: flex;
+    flex-direction: column; 
+}
+.rscontainer {
+    background: #eaeaea;
+    height: auto;
+    width: 100%;
+}
+.blockroom{
+     margin-left: 54px;
+  }
+  .rsbn{
+    display: block;
+   margin-top: 30px;
+   margin-bottom: 30px;
+   margin-left: 360px;
+}
+}
+  /***********************************mobile responsive for ROOMpage *****************************************************/
+  /***********************************mobile responsive for ROOMpage *****************************************************/
+  /***********************************mobile responsive for ROOMpage *****************************************************/
+
+  @media only screen and (max-width: 667px) {
+    #room {
+       width: 100%;
+   }
+   .wrapper {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+/* Header */
+.rheader {
+  display: flex;
+  flex-direction: column;
+}
+.rhead {
+    width: 100%;
+}
+.rnav a.micon {
+    visibility: visible;
+    color: rgb(82, 76, 65);
+    font-size: 56px;
+    margin: -300px;
+  }
+.rnavbar {
+    visibility: hidden;
+}
+ .h2r {
+     font-weight: 560;
+ }
+ /**Featuures**/
+ .rfeature {
+    display: flex;
+    flex-direction: column;
+ }
+ .rcontainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+ }
+.rh1 {
+    font-size: 28px;
+    font-weight: 450;
+}
+.rimg {
+    margin: 1% 11%;
+    height: 75vh;
+    width: 180%;
+}
+ .rtext{
+     width: 100%;
+     margin: 0%;
+    text-align: center;
+    height: 70vh;
+}
+.rfh2{
+    font-size: 30px;
+}
+.proom{
+    font-size: 15px;
+}
+/*Jounior*/
+.rjun {
+    display: flex;
+    flex-direction: column;
+}
+.rcon{
+    width: 100%;
+    display: inline-block;
+    height: auto;
+}
+.rtextt {
+    margin: 5%;
+    height: 75vh;
+}
+.rimgg
+{
+    height: 100vh;
+}
+.rbn{
+    margin: 20% 20%;
+    height: 60px;
+    width: 190px;
+}
+/*ourrooms*/
+.ourrooms{
+    display: flex;
+    flex-direction: column;
+}
+.rscontainer{
+    width: 100%;
+    display: inline-block;
+    height: auto;
+}
+.blockroom{
+    margin: 11%;
+}
+h1.topic{
+    font-weight: 500;
+    font-size: 30px;
+}
+.rsbn
+{
+    display: block;
+    height: 60px;
+    width: 260px; 
+   margin:3% 12%;
+}
+}
+
+/**************************** Contact CSS part ******************************/
+/****************** Contact CSS part *****************/
+
+#contact {
+    background: #eaeaea;
+    margin: 0%;
+    overflow-x: hidden;
+}
+#ccontainer {
+    background:url(../images/francesca-saraco-65449-unsplash.jpg) no-repeat center ;
+    background-size: cover;
+   width: 100%;
+   min-height: 140vh;
+   margin: 0%;
+   padding: 0%;
+}
+.cbox{
+    height: 150px;
+    width: 520px;
+    margin: 100px 450px;
+    text-transform: uppercase;
+    font-size: 60px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 200;
+    text-align: center;
+    background-color:hsla(0, 10%, 92%, 0.7480);
+    border: 0px none white;
+}
+/* Location part css*/
+
+.cmap {
+    width:  800px;
+    height: 450px;
+}
+.clocation {
+    display:flex; 
+    margin: 70px 20px;
+}
+.plocation {
+   font-size: 45px;
+   font-weight: 200;
+   text-transform: uppercase;
+   margin-top: 10px;
+   margin-left: 12px;
+   font-family: 'Lato', sans-serif;
+}
+.pst {
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+    text-transform: capitalize;
+    margin-left: 22px;
+    overflow-wrap: break-word;
+}
+.contactloc {
+    font-size: 35px;
+}
+/* Get in touch CSS*/
+
+.cgettouch {
+    display:flex; 
+    flex-direction: row-reverse;
+    margin: 0%;
+    width: 100%;
+    min-height: 100vh;
+    background: white;
+}
+.ctouch{
+margin: 10px 250px;
+}
+h2.cget {
+    text-transform: uppercase;
+    font-size: 45px;
+    font-weight: 100;
+    font-family: 'Lato', sans-serif;
+    width:50%;
+    height:145px;
+    margin-left:55px;
+}
+.spansend{
+    border:  2px solid #615442;
+    background: #615442;
+    text-align: center;
+    padding: 8px;
+    border-radius: 3px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    color: white;
+    width: 300px;
+    text-transform: capitalize;
+}
+input ,textarea {
+    border-radius: 5px;
+    border: 2px solid #615442;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    text-transform: capitalize;
+    width: 300px;
+    padding: 8px;
+}
+.ctouchimg {
+    background:url(../images/stil-336189-unsplash.jpg) no-repeat center ;
+   background-size: cover;
+   min-height: 60vh;
+   width: 90vh;
+}
+/***********************************tablet responsive for Contactpage ************************************************/
+  /***********************************tablet responsive for Contactpage************************************************/
+  /***********************************tablet responsive for for Contactpage ************************************************/
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) { 
+    #contact {
+        width: 100%;
+    }
+    .wrapper {
+        width: 100%;
+        overflow-x: hidden;
+   }
+   /**header */
+   .rheader {
+    display: flex;
+    flex-direction: column;
+  }
+  .rhead {
+      width: 100%;
+  }
+  .rnav a.micon {
+      visibility: visible;
+      color: rgb(82, 76, 65);
+      font-size: 56px;
+      float: right;
+      margin-right: 10px;
+    }
+  .rnavbar {
+      visibility: hidden;
+  }
+   .h2r {
+       font-weight: 560;
+   }
+   /**contact bg header*/
+#ccontainer {
+    width: 100%;
+    min-height: 100vh;
+    margin: 0%;
+     }
+ .cbox{
+     margin:20px 25%;
+     height: 150px;
+     width: 520px;
+     font-size: 60px;
+     text-align: center;
+     font-weight: 700;
+     }
+ /* Location part css*/
+     .mapsection{
+      display: flex;
+      flex-direction: column;
+     }
+     .clocation {
+         width: 100%;
+         display: flex;
+         flex-direction: column;
+        height: 130vh;
+        margin: 0%;
+     }
+   .cmap {
+     width: 90%;
+     height: 70vh;
+     margin: 2% 5%;
+    }
+ .cloc{
+     width: 100%;
+     height: 40vh;
+    text-align: center;
+ }
+ .plocation {
+    font-size: 35px;
+ }
+ .pst {
+     margin-left: 7%;;
+     font-size: 30px;
+     text-align: left;
+ }
+ .contactloc {
+     font-size: 25px;
+ }
+ 
+ /* Get in touch CSS*/
+ .cgettouch {
+     display:flex; 
+     flex-direction: column;
+     margin: 0%;
+     width: 100%;
+     min-height: 120vh;
+ }
+ .ctouch{
+    margin-left: 35%;
+ }
+ h2.cget {
+     font-size: 40px;
+     margin-left: 65px;
+     height: auto;
+ }
+ .ctouchimg {
+    min-height: 110vh;
+    width: 60%;
+    margin-top: -5px;
+    margin-left: 20%;
+ }
+}
+  /***********************************mobile responsive for Contactpage *****************************************************/
+  /***********************************mobile responsive for Contactpage *****************************************************/
+  /***********************************mobile responsive for Contactpage *****************************************************/
+
+  @media only screen and (max-width: 667px) {
+    #contact {
+       width: 100%;
+   }
+   .wrapper {
+    width: 100%;
+    overflow-x: hidden;
+    }
+/* Header */
+.rheader {
+    display: flex;
+    flex-direction: column;
+  }
+  .rhead {
+      width: 100%;
+  }
+  .rnav a.micon {
+      visibility: visible;
+      color: rgb(82, 76, 65);
+      font-size: 56px;
+      margin: -300px;
+    }
+  .rnavbar {
+      visibility: hidden;
+  }
+   .h2r {
+       font-weight: 560;
+   }
+/**contact bg header*/
+#ccontainer {
+   width: 100%;
+   min-height: 50vh;
+   margin: 0%;
+    }
+.cbox{
+    margin:20px 0%;
+    height: 110px;
+    width: 430px;
+    font-size: 40px;
+    text-align: center;
+    }
+/* Location part css*/
+    .mapsection{
+     display: flex;
+     flex-direction: column;
+    }
+    .clocation {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+       height: 90vh;
+       margin: 0%;
+    }
+  .cmap {
+    width: 90%;
+    height: 40vh;
+    margin: 2% 15px;
+   }
+.cloc{
+    width: 100%;
+    height: 40vh;
+    top: 100px;
+}
+.plocation {
+   font-size: 25px;
+}
+.pst {
+    margin-left: 0%;;
+    font-size: 20px;
+}
+.contactloc {
+    font-size: 25px;
+}
+
+/* Get in touch CSS*/
+.cgettouch {
+    display:flex; 
+    flex-direction: column;
+    margin: 0%;
+    width: 100%;
+    min-height: 100vh;
+    text-align: center;
+}
+.ctouch{
+    margin: 13px 25px;
+   text-align: center;
+}
+h2.cget {
+    font-size: 40px;
+    margin-left: 65px;
+    height: auto;
+}
+.ctouchimg {
+   min-height: 90vh;
+   width: 100%;
+   margin-top: -5px;
+}
+}
+/********END OF MOBILE CONTACT***********/
+/********END OF MOBILE CONTACT***********/
+/********END OF MOBILE CONTACT***********/
+/********END OF MOBILE CONTACT***********/
